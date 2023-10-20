@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.bio img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    padding-bottom: 10px;
+}
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+li {
+    font-size: 20px;
+    color: #555;
+}
+
+.course {
+    margin-bottom: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: #0074c3;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
+    color: #555;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+.links a {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.review {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.avatar img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+}
+
+.comment {
+    margin-left: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+p {
+    font-size: 19px;
+    margin: 0;
+    color: #555;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.comment {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.comment h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.comment p {
+    font-size: 18px;
+    margin: 0;
+    color: #555;
+}
+
+.last-updated p {
+    color: #555;
+    font-size: 15px;
+    padding-top: 30px;
+}
